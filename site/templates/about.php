@@ -22,7 +22,7 @@
                 <h1>
                     <?= $page->titleCompany()->html() ?>
                 </h1>
-                <p>
+                <p>ffga
                     <?= $page->textCompany()->kirbytext() ?>
                 </p>
             </div>

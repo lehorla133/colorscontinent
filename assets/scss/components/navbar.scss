@@ -1,0 +1,7 @@
+.toto {
+  color: blue;
+  .inside-toto {
+    color: pink;
+    .another-one {}
+  }
+}
