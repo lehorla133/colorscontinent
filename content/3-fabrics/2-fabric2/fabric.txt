@@ -1,0 +1,13 @@
+Title: Fabric2
+
+----
+
+Text: test test test
+
+----
+
+Text2: kkkkkkkkk
+
+----
+
+Number: 2

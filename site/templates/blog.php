@@ -13,7 +13,7 @@
       if($pagination->page() == 1):
       ?>
         <div class="intro text">
-          <?= $page->text()->kirbytext() ?>
+          <?= $page->textForBlog()->kirbytext() ?>
         </div>
       <?php endif ?>
 
@@ -31,10 +31,11 @@
                 <a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
               </h2>
 
-              <p class="article-date"><?= $article->date('F jS, Y') ?></p>
+                <date datetime="<?= $article->date('y-m-d') ?>"><?= $article->date('F jS, Y') ?></date>
+
             </header>
 
-            <?php snippet('coverimage', $article) ?>
+            <?php snippet('coverimageblog', $article) ?>
 
             <div class="text">
               <p>
@@ -53,7 +54,28 @@
       <?php endif ?>
     </section>
 
-    <?php snippet('pagination') ?>
+      <?php
+      $list = page()->children()->visible()->sortBy('sort', 'desc')->paginate($perpage);
+      $pagination = $list->pagination();
+      ?>
+      <nav>
+          <ul>
+              <?php if ($pagination->hasPrevPage()): ?>
+                  <li><a href="<?php echo $pagination->prevPageURL() ?>">&larr;</a></li>
+              <?php else: ?>
+                  <li><span>&larr;</span></li>
+              <?php endif ?>
+              <?php foreach ($pagination->range(10) as $r): ?>
+                  <li><a<?php if ($pagination->page() == $r) echo ' class="active"' ?>
+                              href="<?php echo $pagination->pageURL($r) ?>"><?php echo $r ?></a></li>
+              <?php endforeach ?>
+              <?php if ($pagination->hasNextPage()): ?>
+                  <li class="last"><a href="<?php echo $pagination->nextPageURL() ?>">&rarr;</a></li>
+              <?php else: ?>
+                  <li class="last"><span>&rarr;</span></li>
+              <?php endif ?>
+          </ul>
+      </nav>
 
   </main>
 

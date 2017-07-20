@@ -1,0 +1,24 @@
+title: Fabric
+
+files: true
+
+pages: false
+
+options:
+  template: false
+  status: true
+  url: false
+
+fields:
+
+  number:
+    label: Number of the fabric
+    type: number
+
+  title:
+    label: Name of the fabric
+    type:  text
+
+  text:
+    label: Short description
+    type:  textarea

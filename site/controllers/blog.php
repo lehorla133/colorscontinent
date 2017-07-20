@@ -17,7 +17,8 @@ return function($site, $pages, $page) {
 
   return [
     'articles'   => $articles,
-    'pagination' => $articles->pagination()
+    'pagination' => $articles->pagination(),
+    'perpage'    => $perpage
   ];
 
 };

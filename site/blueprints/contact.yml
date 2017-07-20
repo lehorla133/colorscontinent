@@ -1,41 +1,90 @@
 title: Contact
 
-pages: false
+pages:
+  template: contactconfirmation
+
+files: false
 
 options: 
   delete: false
   status: false
 
 fields: 
-  title:
-    label: Title
+  titleContact:
+    label: Title for contact
     type: title
   
-  intro:
-    label: Intro
+  introTextContact:
+    label: Introduction for contact
     type: textarea
-    
-  contactoptions:
-    label: Contact Options
-    type: structure
-    style: table
-    fields:
-      title:
-        label: Title
-        type: text
-      icon:
-        label: Icon
-        type: image
-      text:
-        label: Text
-        type: text
-      url:
-        label: URL
-        type: text
-      linktext:
-        label: Link Text
-        type: text
-  
-  text:
-    label: Text
+
+  descriptionTextContact:
+    label: Text for contact
     type: textarea
+
+  line-a:
+    type: line
+
+  contactform:
+    label: Contact Form
+    type: headline
+
+  youremail:
+    label: Your email address
+    type: email
+    help: You'll have to send the form once to verify it when you set an email address
+    required: true
+
+  namelabel:
+    label: Name label
+    type: text
+    width: 1/2
+    required: true
+
+  nameplaceholder:
+    label: Name placeholder
+    type: text
+    width: 1/2
+    required: true
+
+  emaillabel:
+    label: Email label
+    type: text
+    wth: 1/2
+    required: true
+
+  emailplaceholder:
+    label: Email placeholder
+    type: text
+    width: 1/2
+    required: true
+
+  messagelabel:
+    label: Message label
+    type: text
+    width: 1/2
+    required: true
+
+  messageplaceholder:
+    label: Message placeholder
+    type: text
+    width: 1/2
+    required: true
+
+  submitlabel:
+    label: Submit button label
+    type: text
+    width: 1/2
+    required: true
+
+  subjectlabel:
+    label: Subjet label
+    type: text
+    width: 1/2
+    required: true
+
+  successpage:
+    label: Success page
+    type: page
+    width: 1/2
+    required: true

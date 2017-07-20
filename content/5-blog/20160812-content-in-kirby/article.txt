@@ -1,0 +1,13 @@
+Title: Content in Kirby
+
+----
+
+Date: 2016-08-12
+
+----
+
+Coverimage: yann.jpg
+
+----
+
+Text: Premier article de blog

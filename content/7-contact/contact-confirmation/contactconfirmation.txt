@@ -1,0 +1,9 @@
+Titlecontactconfirmation: Confirmation
+
+----
+
+Aboutcontactconfirmation: Thank you for your mail !
+
+----
+
+Title: contact-confirmation

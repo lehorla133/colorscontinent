@@ -28,12 +28,12 @@ fields:
     default: 5
     width: 1/4
 
-  text:
+  textForBlog:
     label: Text
     type: textarea
 
   info:
-    label: Hint
+    label: Information
     type: info
     text: >
       The blog page fetches its subpages and displays them as blog posts.

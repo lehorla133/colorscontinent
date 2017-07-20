@@ -2,15 +2,60 @@ title: Home
 
 pages: false
 
+files: true
+
+
+options:
+  preview: true
+  status: true
+  template: false
+  url: true
+  delete: false
+
 fields:
-  title:
-    label: Title
+  coverHome:
+    label: Cover image for the home page
+    type: image
+
+  line-a:
+      type: line
+
+  titleWelcome:
+    label: Welcome title
     type:  text
 
-  intro:
-    label: Intro
+  introText:
+    label: Introduction of the web site
     type:  textarea
 
-  text:
-    label: Text
+  line-b:
+      type: line
+
+  titleLastFabrics:
+    label: Title for the last fabrics
+    type:  text
+
+  line-c:
+      type: line
+
+  titleLastProducts:
+    label: Title for the last products
+    type:  text
+
+  line-d:
+      type: line
+
+  titleOurHistory:
+    label: Title for our history
+    type:  text
+
+  textOurHistory:
+    label: Short introduction text about the history
     type:  textarea
+
+  line-e:
+      type: line
+
+  titleLastBlogPost:
+    label: Title for last blog post
+    type:  text

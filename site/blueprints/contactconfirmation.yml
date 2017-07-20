@@ -1,0 +1,13 @@
+title: Contact Confirmation
+
+pages: false
+
+fields:
+  titleContactConfirmation:
+    label: Title for the confirmation page
+    type: title
+
+  aboutContactConfirmation:
+    label: Text for the confirmation page
+    type: textarea
+

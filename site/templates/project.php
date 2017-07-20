@@ -26,7 +26,7 @@
       
     </div>
     
-    <?php snippet('prevnext') ?>
+
 
   </main>
 

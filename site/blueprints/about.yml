@@ -2,23 +2,63 @@ title: About
 
 pages:
   template: team
-  num: zero
 
-files: false
+files: true
 
 options: 
   template: false  
   status: false  
   
 fields:
-  title:
-    label: Title
+  coverCompany:
+    label: Cover image for the company
+    type: image
+
+  line-a:
+    type: line
+
+  titleCompany:
+    label: Title of the company
     type: title
-    
-  intro:
-    label: Intro
+
+  textCompany:
+    label: Text presentation about the company
     type: textarea
-    
-  text:
-    label: Text
+
+  line-b:
+      type: line
+
+  titleFabrics:
+    label: Title for the fabrics
+    type: title
+
+  coverFabrics:
+    label: Cover images for the fabrics
+    type: image
+
+  titleColorMeanings:
+    label: Title for the meanings
+    type: title
+    width: 1/2
+
+  titleMaintenanceProducts:
+    label: Title for the products maintenance
+    type: title
+    width: 1/2
+
+  textColorMeanings:
+    label: Text for the meanings
     type: textarea
+    width: 1/2
+
+  textMaintenanceProducts:
+    label: Text for the maintenance products
+    type: textarea
+    width: 1/2
+
+  line-c:
+    type: line
+
+  titleTeam:
+    label: Title for the team
+    type: title

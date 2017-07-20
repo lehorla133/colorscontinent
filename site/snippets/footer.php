@@ -10,7 +10,8 @@
       <p class="footer-madewithkirby">
         <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b class="heart">♥</b></a>
       </p>
-    
+        <a href="<?php echo $site->facebook() ?>">Facebook</a>
+        <a href="<?php echo $site->instagram() ?>">Instagram</a>
     </div>
   </footer>
 

@@ -1,13 +1,25 @@
-Title: Kirby Starterkit
+Title: Colors Continent
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Lauren Bill
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: This is the web site of Colors Continent
 
 ----
 
-Copyright: © 2009–(date: Year) (link: http://getkirby.com text: The Kirby Team)
+Facebook: http://facebook.com/colorscontinent
+
+----
+
+Instagram: http://instagram.com/colorscontinent
+
+----
+
+Copyright: © 2017–(date: Year) (link: http://facebook.com/colorscontinent text: Colors Continent Team)
+
+----
+
+Keywords: colors continent, wax fabrics, africa

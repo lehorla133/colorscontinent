@@ -1,0 +1,20 @@
+title: Fabrics
+
+files: false
+
+pages:
+  template: fabric
+
+options:
+  template: true
+  status: true
+  url: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  textarea

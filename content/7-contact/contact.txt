@@ -1,0 +1,57 @@
+Title: Contact
+
+----
+
+Titlecontact: Contact
+
+----
+
+Introtextcontact: This is our contact page.
+
+----
+
+Descriptiontextcontact: 
+
+----
+
+Youremail: y.longchamp@hotmail.com
+
+----
+
+Namelabel: Name
+
+----
+
+Nameplaceholder: John Peterson...
+
+----
+
+Emaillabel: Email
+
+----
+
+Emailplaceholder: johnpeterson@mail.com
+
+----
+
+Messagelabel: Your message
+
+----
+
+Successpage: contact/contact-confirmation
+
+----
+
+Messageplaceholder: I have a question about...
+
+----
+
+Submitlabel: Let's go
+
+----
+
+Subjetlabel: Subjet
+
+----
+
+Subjectlabel: Subject
